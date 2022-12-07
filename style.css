@@ -46,10 +46,12 @@ body{
     background-color: gold;
 }
 .colonne_contenu {
-    background-color: lightgreen;
+    background-color:beige;
+    margin: 10px;
 }
 .pieddepage{
     background-color: lightgray;
+    line-height:50px;
 }
 .titre {
     font-size: 15px;
@@ -60,6 +62,33 @@ body{
     color: gold;
     font-style: italic;
 }
-
-
-
+h1 {
+    background-color: beige;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-bottom: solid 5px black;
+}
+h2 {
+    color: black;
+    font-size: 15px;
+    margin: 20px;
+    font-variant: small-caps;
+}
+strong {
+    color:red;
+    font-weight: normal;
+}
+em {
+    color: purple;
+}
+.introduction {
+    font-style: italic;
+    border: solid 2px black;
+    margin: 10px;
+    border-radius: 10px;
+}
+#link:hover {
+    font-weight: bold;
+    color: fuchsia;
+    text-decoration: none;
+}
